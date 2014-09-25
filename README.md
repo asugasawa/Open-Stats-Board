@@ -1,7 +1,7 @@
 Open-Stats-Board
 ===========
 
-A simple status board project aiming to show a visual representation of realiable real-time information through the use of graphs and status indicators.
+A simple status board project aiming to show a visual representation of realiable real-time information through the use of graphs and status indicators.Open-Stats-Board was created scalabilty in mind.
 
 Key Features
 ===========
@@ -20,10 +20,21 @@ Dependencies
 
 RoadMap
 ===========
--Created with scalabitly in mind
--Potential backend integration
+
+Phase I
 
 
+
+Phase II
+
+
+
+Phase III
+
+
+
+
+===========
 
 
 Contributor(s): Asugasawa AKA P-Unknown
