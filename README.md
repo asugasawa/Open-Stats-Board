@@ -6,10 +6,10 @@ A simple status board project aiming to show a visual representation of realiabl
 Key Features
 ===========
 
--Line graph
--Real time message board
--Draggable and sortable blocks/tiles
--Create with Bootstrap 3
+[Interactive Bar & Line graph]
+[Real time message board]
+[Draggable and sortable blocks/tiles]
+[CBootstrap 3]
 
 
 
