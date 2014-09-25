@@ -13,8 +13,6 @@ Key Features
 
 
 
-Dependencies
-===========
 
 
 
@@ -33,8 +31,11 @@ Phase III
 
 
 
-
+Dependencies
 ===========
 
 
-Contributor(s): Asugasawa AKA P-Unknown
+
+Contributor(s)
+===========
+Asugasawa AKA P-UNKNOWN
