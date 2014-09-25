@@ -9,7 +9,7 @@ Key Features
 [Interactive Bar & Line graph]
 [Real time message board]
 [Draggable and sortable blocks/tiles]
-[CBootstrap 3]
+[Bootstrap 3]
 
 
 
