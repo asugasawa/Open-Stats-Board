@@ -1,23 +1,24 @@
-<div class="jumbotron">
-  <h1>'Allo, 'Allo!</h1>
-  <p class="lead">
-    <img src="images/yeoman.png" alt="I'm Yeoman"><br>
-    Always a pleasure scaffolding your apps.
-  </p>
-  <p><a class="btn btn-lg btn-success" ng-href="#">Splendid!<span class="glyphicon glyphicon-ok"></span></a></p>
+<div class="container">
+    <h2>My todos</h2>
+    <p class="form-group" ng-repeat="todo in todos">
+        <input type="text" ng-model="todo" class="form-control">
+    </p>
 </div>
+<div id="chart"></div>
 
-<div class="row marketing">
-  <h4>HTML5 Boilerplate</h4>
-  <p>
-    HTML5 Boilerplate is a professional front-end template for building fast, robust, and adaptable web apps or sites.
-  </p>
+<script>
+    var data = [{ x: 0, y: 40 }, { x: 1, y: 49 }, { x: 2, y: 17 }, { x: 3, y: 42 }];
 
-  <h4>Angular</h4>
-  <p>
-    AngularJS is a toolset for building the framework most suited to your application development.
-  </p>
+    var graph = new Rickshaw.Graph({
+        element: document.querySelector("#chart"),
+        width: 580,
+        height: 250,
+        series: [{
+            color: 'steelblue',
+            data: data
+        }]
+    });
 
-  <h4>Karma</h4>
-  <p>Spectacular Test Runner for JavaScript.</p>
-</div>
+    graph.render();
+</script>
+
