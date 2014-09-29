@@ -13,10 +13,10 @@ Scope
 Key Features
 ===========
 
-[Interactive Bar & Line graph]
-[Real time message board]
-[Draggable and sortable blocks/tiles]
-[Bootstrap 3]
+[Interactive Bar & Line graph]<br>
+[Real time message board]<br>
+[Draggable and sortable blocks/tiles]<br>
+[Bootstrap 3]<br>
 
 
 
