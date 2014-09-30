@@ -1,15 +1,40 @@
 Open-Stats-Board
 ===========
 
-A simple status board project aiming to show a visual representation of realiable real-time information through the use of graphs and status indicators.
+A simple status board project aiming to show a visual representation of realiable real-time information through the use of graphs and status indicators.Open-Stats-Board was created scalabilty in mind.
+
+
+Scope
+===========
+
+
+
 
 Key Features
 ===========
 
--Line graph
--Real time message board
--Draggable and sortable blocks/tiles
--Create with Bootstrap 3
+[Interactive Bar & Line graph]<br>
+[Real time message board]<br>
+[Draggable and sortable blocks/tiles]<br>
+[Bootstrap 3]<br>
+
+
+
+
+
+
+RoadMap
+===========
+
+Phase I
+
+
+
+Phase II
+
+
+
+Phase III
 
 
 
@@ -18,12 +43,10 @@ Dependencies
 
 
 
-RoadMap
+Tests
 ===========
--Created with scalabitly in mind
--Potential backend integration
 
 
-
-
-Contributor(s): Asugasawa AKA P-Unknown
+Contributor(s)
+===========
+Asugasawa AKA P-UNKNOWN
