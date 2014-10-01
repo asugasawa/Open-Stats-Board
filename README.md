@@ -41,7 +41,7 @@ Phase III
 Dependencies
 ===========
 
-Website
+Demo
 ===========
 
 Contributor(s)
