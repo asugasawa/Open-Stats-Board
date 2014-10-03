@@ -1,1 +1,58 @@
-<p>This is the about view.</p>
+<div id="rickshaw" ng-controller="AboutCtrl"></div>
+
+<div class=".container">
+
+
+    <div class="col-md-12">
+        <div class="panel panel-primary">
+            Angel
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="panel panel-primary">
+            News
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="panel panel-primary">
+            Other Stats
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="panel panel-primary">
+            Trend
+            <div id="chart"></div>
+        </div>
+    </div>
+
+    <div class="col-md-12">
+        <div class="panel panel-primary">
+            Knob
+        </div>
+    </div>
+
+</div>
+
+
+
+<!--Temporary script location-->
+    <script>
+
+        var data = [{ x: 0, y: 40 }, { x: 1, y: 49 }, { x: 2, y: 17 }, { x: 3, y: 42 }];
+
+        var graph = new Rickshaw.Graph({
+            element: document.querySelector("#chart"),
+            width: 100,
+            height: 50,
+            series: [{
+                color: 'steelblue',
+                data: data
+            }]
+        });
+
+        graph.render();
+
+    </script>

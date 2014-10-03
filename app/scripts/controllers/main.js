@@ -6,7 +6,7 @@
  * @description
  * # MainCtrl
  * Controller of the openStatsBoardApp
- */
+
 angular.module('openStatsBoardApp')
   .controller('MainCtrl', function ($scope) {
      $scope.options1 = {
@@ -21,4 +21,4 @@ angular.module('openStatsBoardApp')
                         color: 'lightblue',
                         data: [{x: 0, y: 30}, {x: 1, y: 20}, {x: 2, y: 64}, {x: 3, y: 50}, {x: 4, y: 15}]
                     }];
-  });
+  }); */
