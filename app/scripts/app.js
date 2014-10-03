@@ -15,9 +15,12 @@ angular
     'ngResource',
     'ngRoute',
     'ngSanitize',
-    'ngTouch'
+    'ngTouch',
+    'ui.sortable',
+    'LocalStorageModule'
   ])
-  .config(function ($routeProvider) {
+  	.config(['localStorageServiceProvider', '$routeProvider', function(localStorageServiceProvider, $routeProvider){
+  		localStorageServiceProvider.setPrefix('ls');
     $routeProvider
       .when('/', {
         templateUrl: 'views/main.html',
@@ -27,7 +30,11 @@ angular
         templateUrl: 'views/about.html',
         controller: 'AboutCtrl'
       })
+      .when('/statsboard', {
+        templateUrl: 'views/statsboard.html',
+        controller: 'StatsboardCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });
-  });
+  }]);
