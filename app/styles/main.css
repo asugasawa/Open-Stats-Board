@@ -17,25 +17,29 @@ body {
     background-color: rgb(32,32,32);
 }
 
+span.glyphicon-align-justify { left:210px;}
+
 
 /*Structure*/
 
-/*================================Side Navigation================================*/
+/*================================Side Navigation================================*/ /*Clean*/
 #sidebar-wrapper {
     z-index: 1000;
     position: fixed;
-    left: 250px; /*0 gone, 250 show*/
-    width: 0;
+    left: 50px; /*0 gone, 250 show*/
+    width: 250px;
     height: 100%;
     margin-left: -250px;
     overflow-y: auto;
     background: rgba(0, 0, 0, 0.2);
-    -webkit-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
-    -o-transition: all 0.5s ease;
-    transition: all 0.5s ease;
+    -webkit-transition: left 2s; /* For Safari 3.1 to 6.0 */
+    transition: left 2s;
 }
 
+#sidebar-wrapper:hover {
+    left: 250px;
+
+}
 #wrapper.toggled #sidebar-wrapper {
     width: 250px;
 }
@@ -90,11 +94,11 @@ body {
     }
 
         .sidebar-nav > .sidebar-brand a {
-            color: #000;
+            color: rgb(144,144,144);
         }
 
             .sidebar-nav > .sidebar-brand a:hover {
-                color: #000;
+                color: rgb(144,144,144);
                 background: none;
             }
 
@@ -138,6 +142,9 @@ body {
     padding-top: 1%;
 }
 
+.panel {
+    background-color:red;
+}
 
 /*================================Footer & Credits================================*/
 
