@@ -8,8 +8,7 @@
  *
  * Main module of the application.
  */
-angular
-  .module('openStatsBoardApp', [
+var openStatsBoardApp = angular.module('openStatsBoardApp', [
     'ngAnimate',
     'ngCookies',
     'ngResource',
