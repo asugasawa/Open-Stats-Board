@@ -8,7 +8,7 @@
  *
  * Main module of the application.
  */
-var openStatsBoardApp = angular.module('openStatsBoardApp', [
+ angular.module('openStatsBoardApp', [
     'ngAnimate',
     'ngCookies',
     'ngResource',
@@ -16,7 +16,8 @@ var openStatsBoardApp = angular.module('openStatsBoardApp', [
     'ngSanitize',
     'ngTouch',
     'ui.sortable',
-    'LocalStorageModule'
+    'LocalStorageModule',
+    'd3'
   ])
   	.config(['localStorageServiceProvider', '$routeProvider', function(localStorageServiceProvider, $routeProvider){
   		localStorageServiceProvider.setPrefix('ls');
